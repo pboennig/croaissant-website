@@ -14,6 +14,7 @@ body, .pure-g [class *= "pure-u"] {
     margin-right: 5px;
     border-radius: 20px;
     line-height: 100%;
+    word-break: break-all;
 }
 #bio {
     background-color: #FFF8E0;
