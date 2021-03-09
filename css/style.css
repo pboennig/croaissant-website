@@ -15,6 +15,15 @@ body, .pure-g [class *= "pure-u"] {
     border-radius: 20px;
     line-height: 100%;
 }
+#bio {
+    background-color: #FFF8E0;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border-radius: 20px;
+    line-height: 100%;
+    text-align: center
+}
 
 a {
     color: black;
