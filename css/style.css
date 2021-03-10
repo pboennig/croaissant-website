@@ -6,8 +6,13 @@ body, .pure-g [class *= "pure-u"] {
     background-color: #E9E9E9;
 }
 
+#prototype {
+    background-color: #E9E9E9;
+    text-align: center;
+}
+
 #hero-text {
-    margin: 40px;
+    margin: 50px;
     font-size: 4em;
     line-height: 1.2;
 }
@@ -59,15 +64,18 @@ a {
 
 .flow-container {
     position: relative;
-    padding-bottom: 200%;
+    padding-bottom: 150%; /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
+    padding-top: 30px;
     height: 0;
+    overflow: hidden;
 }
+
 .flow-container iframe {
+    position: absolute;
     top: 0;
     left: 0;
-    position: absolute;
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 80%;
 }
 
 .video-container {
@@ -111,6 +119,7 @@ a {
 #about-text {
     width: 70%;
     padding-left: 40px;
+    text-size: 14;
 }
 
 #flow-l {
