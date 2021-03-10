@@ -56,6 +56,20 @@ a {
     width: 150px
 }
 
+
+.flow-container {
+    position: relative;
+    padding-bottom: 200%;
+    height: 0;
+}
+.flow-container iframe {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
@@ -99,23 +113,21 @@ a {
     padding-left: 40px;
 }
 
-#hi-fi {
-    margin: auto;
-    text-align: center;
-}
-
 #flow-l {
     margin-left: auto;
     margin-right: 10px;
-    text-align: center;
 }
 
 #flow-r {
     margin-left: 10px;
     margin-right: auto;
-    text-align: center;
 }
 
 .center {
     justify-content: center;
+}
+
+.bio-elem {
+    padding: 10px;
+    text-align: center;
 }
