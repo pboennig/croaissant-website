@@ -2,6 +2,7 @@ body, .pure-g [class *= "pure-u"] {
     font-family: 'Lato', sans-serif;
 }
 
+
 #splash {
     background-color: #E9E9E9;
 }
@@ -31,7 +32,6 @@ body, .pure-g [class *= "pure-u"] {
     border-radius: 20px;
 }
 #header {
-    width: 100%;
     padding: 15px;
 }
 #header img{
@@ -120,16 +120,6 @@ a {
     width: 70%;
     padding-left: 40px;
     text-size: 14;
-}
-
-#flow-l {
-    margin-left: auto;
-    margin-right: 10px;
-}
-
-#flow-r {
-    margin-left: 10px;
-    margin-right: auto;
 }
 
 .center {
