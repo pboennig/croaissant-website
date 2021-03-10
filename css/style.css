@@ -137,6 +137,6 @@ a {
 }
 
 .bio-elem {
-    padding: 10px;
     text-align: center;
+    margin: 20px;
 }
